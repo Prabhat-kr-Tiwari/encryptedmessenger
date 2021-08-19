@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Encrypted messenger</string>
+    <string name="encrypt">Encrypt</string>
+</resources>

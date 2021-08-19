@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prabhat.encryptedmessenger">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CryptoMessenger">
+        <activity android:name="com.prabhat.encryptedmessenger.Resetpassword"></activity>
+        <activity android:name="com.prabhat.encryptedmessenger.MD5" />
+        <activity android:name="com.prabhat.encryptedmessenger.RSA" />
+        <activity android:name="com.prabhat.encryptedmessenger.DES" />
+        <activity android:name="com.prabhat.encryptedmessenger.AES" />
+        <activity android:name="com.prabhat.encryptedmessenger.HOME" />
+        <activity android:name="com.prabhat.encryptedmessenger.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
